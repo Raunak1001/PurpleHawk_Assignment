@@ -1,0 +1,39 @@
+<!-- <form action="/" method="post">
+    UserId: <input type="text" name="UserId"><br>
+    ResturantId: <input type="text" name="ResId"><br>
+    Restaurant Name: <input type="text" name="ResName"><br>
+    Review: <input type="text" name="Text"><br>
+    Ratings: <input type="text" name="Ratings"><br>
+    
+    <input type="submit" value="Submit">
+</form>
+ -->
+ <HTML>
+ <link rel="stylesheet" type="text/css" href="/static/styles/form	.css">
+  
+<div class="container">  
+  <form id="contact" action="/checkin" method="post">
+    <h3>Review</h3>
+    <fieldset>
+      <input placeholder="UserId" name="UserId" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Resturant Id" type="text", name="ResId" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Restaurant" , name="ResName", type="text" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Ratings", name="Ratings",type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Review", name="Text", tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+     <input type="submit" value="Submit" type="submit" id="contact-submit" >
+    </fieldset>
+    
+  </form>
+</div>
+
+</HTML>
